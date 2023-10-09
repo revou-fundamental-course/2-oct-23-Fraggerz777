@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    margin-top: -8px;
+    margin-right:-8px;
+    margin-left:-8px;
+}
+body {
+    background-color: #11468F;
+    background-size: cover;
+
+  }
+  section{
+    background-color: #041562;
+    -webkit-text-fill-color: aliceblue;
+    text-indent: 50px;
+    margin-top: -20px;
+    margin-right:-8px;
+    padding-top:3px;
+    padding-bottom: 5px;
+    margin-left:-8px;
+    border-radius: 2px;
+  }
+  main{
+    background: #DA1212;
+    padding:30px;
+    width: cover;
+    height: 530px;
+    margin-right:-8px;
+    margin-left:-8px;
+    text-align: left;
+}
+  
+.gradient-text {
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #D80032, #362FD9);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+ button{
+    margin: 2px;
+
+ }
+ label{
+    -webkit-text-fill-color: aliceblue;
+ }
+ input{
+    width:700px;
+    height:50px;
+ }
