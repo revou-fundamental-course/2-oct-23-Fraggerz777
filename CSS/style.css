@@ -1,33 +1,50 @@
-h1{
+header{
+    background-color: #6499E9;
+    color: azure;
     text-align: center;
-    margin-top: -8px;
-    margin-right:-8px;
-    margin-left:-8px;
-}
-body {
-    background-color: #11468F;
-    background-size: cover;
+    margin-top: -22px;
+    margin-left: -22px;
+    margin-right: -22px;
+    padding: 200px;
 
+  
+}
+p{
+  font-size:22px;
+}
+h1{
+  font-size: 100px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+
+  
   }
+  section h2{
+    font-size:40px;
+    font-weight: bolder;
+  }
+
   section{
-    background-color: #041562;
-    -webkit-text-fill-color: aliceblue;
-    text-indent: 50px;
-    margin-top: -20px;
-    margin-right:-8px;
-    padding-top:3px;
-    padding-bottom: 5px;
-    margin-left:-8px;
-    border-radius: 2px;
+    padding: 20px;
+    background-color: #9EDDFF;
+    margin-left: -22px;
+    margin-right: -22px;
+    color:#12486B;
   }
-  main{
-    background: #DA1212;
-    padding:30px;
-    width: cover;
-    height: 530px;
-    margin-right:-8px;
-    margin-left:-8px;
-    text-align: left;
+  label{
+    display:block;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size: 16 px;
+  }
+  input{
+   padding: 10px;
+   border: #041562 solid 1 px;
+   border-radius: 4px;
+   outline: none;
 }
   
 .gradient-text {
@@ -40,13 +57,30 @@ body {
     -moz-text-fill-color: transparent;
 }
  button{
-    margin: 2px;
+  padding: 10px 20px;
+  font-size: 16 px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #362FD9;
+  color:azure;
+  border: none;
+  cursor: pointer;
 
  }
- label{
-    -webkit-text-fill-color: aliceblue;
- }
- input{
-    width:700px;
-    height:50px;
- }
+
+  button:hover{
+      background-color: #D80032;
+  }
+
+  button:active{
+    background-color: antiquewhite;
+    transform: translateY(1px)
+  }
+  #input-button{
+    display:flex;
+    align-self:center;
+  }
+
+ 
+ 

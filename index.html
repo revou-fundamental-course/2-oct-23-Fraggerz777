@@ -11,30 +11,40 @@
 
 <body>
     <header>
-        <h1 style="background-color:#EEEEEE;">
+        <h1>
             <span class="gradient-text">Kalkulator Suhu</span>
         </h1>
+        <h2 >By Charlie Valentino</h2>
     </header>
+    <main>
     <section> 
         <h2>Temperature Conversion - Celsius to Fahrenheit </h2>
         <p>Masukkan suhu derajat celcius (°C) ke kotak dibawah, 
         lalu klik tombol "Konversi" untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F). </p></section>
-    <main>
-            <label for="celcius" >Celcius(°C)<br></label> 
+    
 
-         <input type="number" id="input" placeholder="0">
+      <section class="input-section">
+            <label for="celcius" >Celcius(°C)<br></label> 
+         <input type="number" id="celcius" placeholder="0">
          <br>
+         
          <button>Konversi</button>
          <button>Reset</button>
          <button>Reverse</button> 
+
          <br>
          <label for="fahrenheit">Fahrenheit(°F)</label> 
          <br>
-         <input type="number" id="output" placeholder="0">
+         <input type="number" id="fahrenheit" placeholder="0">
          <br>
+
+
          <label for="count">Cara Hitung</label> 
          <br>
-         <input type="string"><br>
+         <input type="string" id="count"><br>
+      </section>
+ 
+
     </main>
 
 
